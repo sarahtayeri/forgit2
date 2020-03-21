@@ -22,6 +22,7 @@ view: order_items {
 
   dimension_group: returned {
     type: time
+    datatype: datetime
     timeframes: [
       raw,
       time,

@@ -15,6 +15,7 @@ view: inventory_items {
 
   dimension_group: created {
     type: time
+    datatype: datetime
     timeframes: [
       raw,
       time,
@@ -35,6 +36,7 @@ view: inventory_items {
 
   dimension_group: sold {
     type: time
+    datatype: datetime
     timeframes: [
       raw,
       time,
